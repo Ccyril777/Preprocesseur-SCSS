@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "AnironC";
+  src: url("police/anicb___.ttf") format("truetype");
+}
+
+body{
+	font-family: AnironC;
+	background-image: url("image/middleearth.jpg");
+	height: auto;
+    overflow: auto;
+    margin: auto;
+    background-repeat:no-repeat;
+    background-position:left top;
+	background-size:cover;
+	color: white;
+}
+h1{
+	font-size: 25px;
+	color: white;
+	padding-top: 5px;
+	text-align: center;
+}
+.soustitre{
+	font-size: 20px;
+}
+h2{
+	font-size: 38px;
+	color: white;
+
+}
+h3{
+	font-family: Party Business;
+	font-size: 40px;
+	color: white;
+}
+.symbole{
+	font-family: Tengwar Annatar;
+	font-size: 25px;
+	color: orange;
+	letter-spacing: -3px;
+}
+.container{
+	padding: 0;
+	background-image: url("image/bg_light.png");
+}
+
+/* NAVBAR */
+
+.golden_title{
+	position: relative;
+	top: 45px;
+	left: 15px;
+}
+.please{
+	text-align: center;
+}
+
+.underline{
+	text-decoration: underline;
+}
+.navigation{
+	background-color: rgb(252,118,18);
+}
+.navbar-brand, .nav-link{
+	color: white;
+}
+
+/* Compilation du SCSS */
+
+.container_orange {
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.container_gold {
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.rings {
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.orange_ring {
+	border-radius: 50%;
+	background: none;
+	width: 65px;
+	height: 65px;
+	box-shadow: 2px 2px 2px #fe6804;
+	border: 5px solid #fe6804;
+}
+
+.golden_ring {
+	border-radius: 50%;
+	background: none;
+	width: 200px;
+	height: 200px;
+	box-shadow: 4px 4px 4px gold;
+	border: 10px solid gold;
+}
+
+.ring-1 {
+	margin-left: -7.6923076923px;
+	width: 30px;
+	height: 30px;
+	box-shadow: 1px 1px 1px black;
+	border: 2px solid #383838;
+	border-radius: 50%;
+	background: none;
+}
+
+.ring-2 {
+	margin-left: -15.3846153846px;
+	width: 60px;
+	height: 60px;
+	box-shadow: 1px 1px 1px black;
+	border: 4px solid #383838;
+	border-radius: 50%;
+	background: none;
+}
+
+.ring-3 {
+	margin-left: -23.0769230769px;
+	width: 90px;
+	height: 90px;
+	box-shadow: 1px 1px 1px black;
+	border: 6px solid #383838;
+	border-radius: 50%;
+	background: none;
+}
+
+.ring-4 {
+	margin-left: -30.7692307692px;
+	width: 120px;
+	height: 120px;
+	box-shadow: 1px 1px 1px black;
+	border: 8px solid #383838;
+	border-radius: 50%;
+	background: none;
+}
+
+.ring-5 {
+	margin-left: -38.4615384615px;
+	width: 150px;
+	height: 150px;
+	box-shadow: 1px 1px 1px black;
+	border: 10px solid #383838;
+	border-radius: 50%;
+	background: none;
+}
+
+.ring-6 {
+	margin-left: -46.1538461538px;
+	width: 180px;
+	height: 180px;
+	box-shadow: 1px 1px 1px black;
+	border: 12px solid #383838;
+	border-radius: 50%;
+	background: none;
+}
+
+.one{
+	height: 50px;
+    width: 50px;
+}
