@@ -168,3 +168,52 @@ h3{
 	height: 50px;
     width: 50px;
 }
+
+footer {
+    background-color: rgb(252,118,18);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+}
+
+input.send {
+    width: 55px;
+    height: 30px;
+    margin-left: 80%;
+
+}
+
+section.ledger {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.yellow {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.Sauron {
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+}
+
+a.alpha {
+    flex-direction: column;
+    margin: 3px 10px;
+	justify-content: left;
+	color: white;
+	text-decoration: none;
+}
+
+a.omega {
+	flex-direction: column;
+	color: white;
+	text-decoration: none;
+}
+
+
